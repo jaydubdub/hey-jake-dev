@@ -1,4 +1,9 @@
 module.exports = {
 	mode: 'jit',
-	content: ['./src/**/*.svelte']
+	content: ['./src/**/*.svelte'],
+    theme: {
+        fontFamily: {
+            'sans': ['Inter', 'sans-serif']
+        }
+    }
 };
