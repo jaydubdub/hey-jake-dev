@@ -1,0 +1,7 @@
+a {
+    @apply text-cyan-400 font-bold hover:animate-pulse;
+}
+
+h1, h2, h3, h4, h5, h6, p, span, a, li {
+    @apply font-sans;
+}
