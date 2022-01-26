@@ -95,11 +95,6 @@
             icon: 'devicon-vscode-plain-wordmark',
             description: 'A JavaScript framework developed by Google for building modern JS applications'
         },
-        {
-            name: 'MySQL',
-            icon: 'devicon-mysql-plain-wordmark',
-            description: 'A JavaScript framework developed by Google for building modern JS applications'
-        }
     ];
 
 </script>
