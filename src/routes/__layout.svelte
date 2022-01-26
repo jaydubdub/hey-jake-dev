@@ -22,7 +22,7 @@
 </svelte:head>
 
 <div class="flex my-auto h-screen content-center items-center justify-center flex-col bg-slate-800">
-    <div class="sm:w-2/3 sm:p-4 w-full p-3">
+    <div class="xl:w-2/3lg:w-3/4 sm:w-2/3 sm:p-4 w-full p-3">
         <PageContainer refresh={key}>
             <slot/>
         </PageContainer>
