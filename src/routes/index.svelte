@@ -25,9 +25,12 @@
 
 <div>
     <h1 class="text-5xl font-sans font-bold mb-5 text-orange-600 transition-all ease-in-out">Hey there.</h1>
-    <h3 class="text-2xl font-sans mb-5 text-gray-200">Kinda bare bones here at the moment.</h3>
 
-    <h3 class="text-xl font-sans mb-5 text-gray-200">I promise I'll have more soon.</h3>
+    <h3 class="text-3xl font-sans mb-5 text-gray-200">My name is <span class="text-orange-300">Jake Whitney</span>.</h3>
+
+    <h5 class="text-2xl font-sans mb-5 text-gray-200">I'm a <span class="text-orange-300">software engineer</span> working primarily in the <span class="text-orange-300">front end</span> of the web.</h5>
+
+    <p class="font-sans mb-5 text-gray-200">It's a little bit sparse here at the moment but I promise I'll have more soon.</p>
 
     <p class="font-sans mb-5 text-gray-200">In the meantime, if you're curious, feel free to read a bit <a href="/about">about me</a>.</p>
 
