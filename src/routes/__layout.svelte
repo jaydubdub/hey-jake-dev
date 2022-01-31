@@ -31,11 +31,14 @@
     </script>
 </svelte:head>
 
-<div class="flex my-auto h-screen content-center items-center justify-center flex-col bg-slate-800">
-    <div class="xl:w-2/3lg:w-3/4 sm:w-2/3 sm:p-4 w-full p-3">
+<div class="flex my-auto md:h-screen content-center items-center justify-center flex-col overflow-y-auto">
+    <div class="xl:w-2/3 lg:w-3/4 sm:w-2/3 sm:p-4 w-full p-3">
         <PageContainer refresh={key}>
             <slot/>
         </PageContainer>
     </div>
-    <p class="text-slate-400 text-xs absolute bottom-0 mb-5 text-center mx-1/2">Crafted with <a href="https://kit.svelte.dev/" target="_blank" rel="external">SvelteKit</a> and <a href="https://tailwindcss.com/" target="_blank" rel="external">Tailwind CSS</a>.  Happily hosted on <a href="https://www.netlify.com" target="_blank" rel="external">Netlify</a>.</p>
 </div>
+
+<footer class="lg:absolute lg:bottom-0 p-3 w-full">
+    <p class="text-slate-400 text-xs text-center mx-1/2">Crafted with <a href="https://kit.svelte.dev/" target="_blank" rel="external">SvelteKit</a> and <a href="https://tailwindcss.com/" target="_blank" rel="external">Tailwind CSS</a>.  Happily hosted on <a href="https://www.netlify.com" target="_blank" rel="external">Netlify</a>.</p>
+</footer>

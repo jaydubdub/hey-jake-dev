@@ -23,7 +23,7 @@
 
 </script>
 
-<div>
+<div class="sm:mt-0 mt-20">
     <h1 class="text-5xl font-sans font-bold mb-5 text-orange-600 transition-all ease-in-out">Hey there.</h1>
 
     <h3 class="text-3xl font-sans mb-5 text-gray-200">My name is <span class="text-orange-300">Jake Whitney</span>.</h3>
